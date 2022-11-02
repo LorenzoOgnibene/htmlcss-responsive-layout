@@ -90,6 +90,19 @@ div.profile{
     border: 1px solid black;
 }
 
+/* SECTION BENEFITS CARD */
+
+div.labels{
+    padding: 3rem;
+}
+
+div.label{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
 /******** RESPONSIVE ********/
 
 @media all and (min-width: 790px){
@@ -108,6 +121,13 @@ div.profile{
         width: calc((100% / 3) * 2 - 1rem);
     }
 
+    div.label{
+        width: calc((100% / 2) - 1rem);
+    }
+
+    div.labels{
+        justify-content: space-between;
+    }
 
 }
 
@@ -125,4 +145,13 @@ div.profile{
     div.section-dev{
         flex-wrap: nowrap;
     }
+
+    div.label{
+        width: calc((100% / 3) - 1rem);
+    }
+
+    div.labels{
+        justify-content: space-between;
+    }
+
 }
