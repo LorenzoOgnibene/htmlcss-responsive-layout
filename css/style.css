@@ -41,12 +41,11 @@ div.menu{
 
 /* SECTION MAIN CARDS */
 
-div.cards{
+section.main-cards div.cards{
     padding: 2.5rem;
-    /* flex-wrap: wrap; */
 }
 
-div.card{
+section.main-cards div.card{
     height: 300px;
     width: 100%;
     background-color: aqua;
@@ -99,13 +98,13 @@ div.profile{
         background-color: red;
     }
 
-    div.card{
+    section.main-cards div.card{
         height: 300px;
         width: calc((100% / 3) - 1rem);
         margin: 1rem auto;
     }
 
-    div.card:first-child{
+    section.main-cards div.card:first-child{
         width: calc((100% / 3) * 2 - 1rem);
     }
 
