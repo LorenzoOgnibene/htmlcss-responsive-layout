@@ -1,0 +1,83 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/****** MOBILE FIRST ******/
+    /* SCETION HEADER */
+header{
+    height: 6vh;
+    width: 100%;
+    background-color: #0084fd;
+}
+
+nav{
+    height: 100%;
+    width: 100%;
+}
+
+div.logo,
+div.menu{
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+}
+
+/* SECTION MAIN CARDS */
+
+div.cards{
+    padding: 2.5rem;
+    flex-wrap: wrap;
+}
+
+div.card{
+    height: 300px;
+    width: 100%;
+    background-color: aqua;
+    margin-bottom: 1rem;
+
+}
+
+
+
+/******** RESPONSIVE ********/
+
+@media all and (min-width: 790px){
+    div.logo,
+    div.menu{
+        background-color: red;
+    }
+
+    div.card{
+        height: 300px;
+        width: calc((100% / 3) - 1rem);
+        margin: 1rem auto;
+    }
+
+    div.card:first-child{
+        width: calc((100% / 3) * 2 - 1rem);
+    }
+}
+
+
+@media all and (min-width: 992px){
+
+    .container{
+        width: 65%;
+    }
+
+    div.cards{
+        padding: 3rem 0;
+    }
+}
