@@ -80,7 +80,8 @@ section.main-cards div.card{
     border-radius: 2rem;
 }
 
-div.card h1{
+div.card h1,
+h2{
     color: #0084fd;
     font-weight: 800;
     font-size: 1.8rem;
@@ -106,7 +107,14 @@ div.card img{
     padding-top: 2.5rem;
 }
 
+div.card > i{
+    color: #0084fd;
+    padding: 1.5rem 0;
+}
 
+.t-center{
+    text-align: center;
+}
 
 
 /* SECTION TWO CARDS  */
@@ -198,13 +206,7 @@ footer{
 /******** RESPONSIVE ********/
 
 @media all and (min-width: 790px){
-    div.logo,
-    div.menu{
-        
-    }
-
     section.main-cards div.card{
-        height: 300px;
         width: calc((100% / 3) - 1rem);
         margin: 1rem auto;
     }
@@ -212,6 +214,11 @@ footer{
     section.main-cards div.card:first-child{
         width: calc((100% / 3) * 2 - 1rem);
     }
+
+    div.card img{
+        width: 70%;
+    }
+    
 
     div.label{
         width: calc((100% / 2) - 1rem);
@@ -240,6 +247,17 @@ footer{
 
     div.cards{
         padding: 3rem 0;
+    }
+
+    div.text-box,
+    div.img-box{
+        width: 50%;
+    }
+
+    div.card img{
+        width: 100%;
+        vertical-align: bottom;
+        padding: 2.5rem 0 0 7rem;
     }
 
     div.section-dev{
