@@ -324,9 +324,46 @@ div.aside button {
 /* SECTION GET START */
 
 section.get-start{
-    padding: 2rem;
+    padding: 4rem 2rem;
     width: 100%;
-    height: 700px;
+    text-align: center;
+}
+
+div.start span{
+    text-transform: uppercase;
+    color: #d2e3f1;
+    font-size: 1.3rem;
+}
+
+div.start h3{
+    color: white;
+    font-size: 2.5rem;
+    padding: 1.5rem 0;
+}
+
+div.start h2{
+    color: #fdc15f;
+    font-size: 5rem;
+    padding-bottom: 1rem;
+}
+
+div.start p{
+    color: white;
+    font-size: 1.3rem;
+    padding: 1rem 0;
+}
+
+div.start button{
+    color: #9792e4;
+    background-color: white;
+    padding: 1.5rem 6rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 1.5rem 0;
+}
+
+div.start a{
+    color: white;
 }
 
 /* FOOTER */
@@ -389,6 +426,10 @@ footer{
     div.aside button {
         padding: 0.5rem 0.4rem;
         font-size: 1rem;
+    }
+
+    section.get-start{
+        padding: 4rem 10rem;
     }
 }
 
@@ -463,5 +504,10 @@ footer{
     div.man-card{
         width: 45%;
         margin-left: 4rem;
+    }
+
+    div.start{
+        width: 40%;
+        margin: 0 auto;
     }
 }
