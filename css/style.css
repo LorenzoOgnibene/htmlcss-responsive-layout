@@ -36,7 +36,7 @@ body{
 }
 
 /****** MOBILE FIRST ******/
-    /* SCETION HEADER */
+    /* SECTION HEADER */
 header{
     height: 6vh;
     width: 100%;
@@ -72,12 +72,41 @@ section.main-cards div.cards{
 }
 
 section.main-cards div.card{
-    height: 300px;
     width: 100%;
-    background-color: aqua;
+    background-color: #b5ddff;
     margin-bottom: 1rem;
-
+    padding: 2rem 2rem 0 2rem;
+    line-height: 1.6;
+    border-radius: 2rem;
 }
+
+div.card h1{
+    color: #0084fd;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+div.card p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 2.5rem 0;
+    color: #506272;
+}
+
+div.card button{
+    font-size: 1.3rem;
+    color: white;
+    background-color: #0084fd;
+    padding: 0.8rem 4rem;
+}
+
+div.card img{
+    width: 100%;
+    vertical-align: bottom;
+    padding-top: 2.5rem;
+}
+
+
 
 
 /* SECTION TWO CARDS  */
